@@ -98,7 +98,7 @@ public class BallBehavior : MonoBehaviour
         }
     }
 
-    private void UpdateBall(float newMass, float newRadius, bool isUpdateFluid, bool isMassEqual = false)
+    private void UpdateBall(float newMass, float newRadius, bool isUpdateFluid, bool isMassEqual = true)
     {
         MassOfBall = newMass;
         rigidBody.mass = newMass;
