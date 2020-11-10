@@ -136,14 +136,4 @@ public class BallBehavior : MonoBehaviour
         _isJoiningPossible = false;
     }
 
-    /*
-    - kulki nie poruszają się w próżni, więc powinny zwalniać podczas poruszania się – symulacja oporu powietrza
-    Symualcja oporu powietrza została zaimplementowana za pomocą drag value w komponencie rigidbody.
-
-    - na kulki nie działają żadne inne siły grawitacyjne
-    W komponencie rigidbody odznaczono use gravity
-
-    Jeżeli powinienem zaimplementować te dwa punkty inaczej, bardzo proszę o wiadomość zwrotną, poprawię rozwiązanie
-    */
-
 }
